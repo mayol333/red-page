@@ -11,4 +11,3 @@ mobileMenuArrow.addEventListener("click", () => {
   mobileMenu.classList.remove("show-mobile-menu");
   body.classList.remove("no-scroll");
 });
-console.log("Hello World");
