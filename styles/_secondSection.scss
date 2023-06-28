@@ -1,0 +1,36 @@
+.second-section{
+    max-width: $section-max-width;
+    height: 800px;
+    background-color: $background-color;
+    display: flex;
+    flex-flow: row wrap;
+
+}
+.rectangles{
+    height: 400px;
+    width: 100%;
+    border: 1px dotted $white-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @include medium{
+        width: 50%;
+    }
+    @include extra-large {
+        width: 33.33%;
+    }
+}
+.icon{
+    height: 70px;
+    width: 70px;
+}
+.font-in-box-head{
+    color: $white-color;
+    font-size: 30px;
+}
+.font-in-box{
+    color: $white-color;
+    margin-top: 10px;
+    width: 89.5%;
+}

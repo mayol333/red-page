@@ -1,0 +1,58 @@
+.first-section{
+    background-image: url('/images/imgs/cup-of-coffee.jpg');
+    background-size: cover;
+    height: 900px;
+    max-width: $section-max-width;
+    width: 100%;
+}
+.navigation-font{
+    color: $white-color;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.header{
+    display: none;
+    justify-content: space-between;
+    @include large{
+        display: flex;
+    }
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.navigation-images{
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.start{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+}
+.designs-font{
+    color: $white-color;
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+}
+.beautiful-designs{
+    color: $white-color;
+    letter-spacing: 7px;
+}
+.text{
+    color: $white-color;
+    font-size: 17px;
+}
+.click{
+    background-color: $background-color;
+    height: 40px;
+    width: 140px;
+    border-radius: 10px;
+}
+.arrow{
+    padding-bottom: 20px;
+}

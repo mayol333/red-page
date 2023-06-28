@@ -1,0 +1,15 @@
+@mixin medium {
+    @media all and (min-width: $breakpoint-m) {
+        @content;
+    }
+}
+@mixin large {
+    @media all and (min-width: $breakpoint-l) {
+        @content;
+    }
+}
+@mixin extra-large {
+    @media all and (min-width: $breakpoint-xl) {
+        @content;
+    }
+}
